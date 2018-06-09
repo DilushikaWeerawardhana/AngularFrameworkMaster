@@ -1,0 +1,16 @@
+<a class="list-group-item list-group-item-action flex-column align-items-start"
+   [routerLink]="[index]"
+   routerLinkActive="active">
+  <div class="d-flex justify-content-between">
+    <div class="d-flex flex-column">
+      <h4 class="">{{ recipe.name }}</h4>
+      <div>{{ recipe.description }}</div>
+    </div>
+    <span>
+        <img [src]="recipe.imagePath"
+             alt="{{recipe.name}}"
+             class="img-responsive"
+             style="height: 70px; width:90px">
+    </span>
+  </div>
+</a>

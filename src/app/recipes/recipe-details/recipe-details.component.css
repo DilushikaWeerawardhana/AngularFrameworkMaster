@@ -1,0 +1,17 @@
+img {
+    width: 100%;
+    height: 400px;
+    margin-top: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.ul-width {
+    width: 100%;
+}
+
+a {
+    cursor: pointer;
+}
